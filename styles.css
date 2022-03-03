@@ -1,48 +1,100 @@
-body {
-    background-color: rgb(187, 184, 184);
-    margin:0px;
-    padding: 0px;
-}
-h2 {
-    font-weight: 100;
-    background-color: rgb(214, 230, 77);
-    padding: 0px;
-    margin: 0px;
-    border : 3px solid rgb(146, 200, 207);
-    text-align: center ;
-    font-size:80px;
-    color:rgb(0, 26, 255)
-
-}
-strong {
-    font-size: 16px;
-    padding: 8px;
-    background-color: rgb(234, 255, 196);
-    font-style: oblique;
-    font-size: 16px;
-    border: 3px solid rgb(150, 120, 125);
-    text-align: center;
-}
-.first {
-    background-color: azure;
-    font-style: normal;
-    text-align: center;
-}
-#secondd {
-    background-color: rgb(103, 61, 143);
-    font-size: 20px;
-    color: red;
-}
-
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    background-color: aqua;
-    font-style:italic;
-}
 header {
-    background-color: rgb(0, 26, 255);
-    size: 20px;
+    background-color: rgb(238, 241, 217);
+    margin: 0px;
+    padding: 10px 5px 0px 15px;
+}
+header h2 {
+    margin: 0px;
+    padding: 2px 2px 0px 3px;
+    color: blue;
+    text-align: right;
+    display: inline;
+}
+header nav ul {
+    margin: 0px;
+    padding: 0px 15px 2px 5px;
+    display: inline;
+}
+header nav ul li {
+    background-color: white;
+    color: blue;
+    list-style-type: none ;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    width: auto;
+}
+body {
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+aside.left {
+    background-color: rgb(207, 236, 163);
+    color: black;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    width:auto;
+    float: left;
+    margin-right: 30px;
+}
+aside.left ul { 
+    list-style-type: none;
+    padding: 25px 25px 45px 35px; 
+}
+aside.left li {
+    font-family:'Times New Roman', Times, serif;   
+}
+aside.left li a {
+    text-decoration: none;
+}
+aside.right {
+     background-color: rgb(207, 236, 163);
+     color: rgb(24, 23, 23);
+     font-weight: bold;
+     font-size: 32px;
+     float:right;
+     padding : 2px;
+     margin-right: 13px;
+     margin-bottom: 14px;
+} 
+aside.right ul { 
+    list-style-type: none;
+    padding: 5px 5px 5px 35px; 
+}
+aside.right ul li {
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+aside.right button {
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    width : auto;
+    padding: 10px;
+    border: 5px;
+}
+.brasov p {
+    background-color: rgb(236, 223, 223);
+    font-weight: bold;
+    width:auto;
+    padding: 24x;
+    margin: 15px;
+    color: rgb(14, 13, 13);
+    font-size: 24px;
+}
+.brasov ol li {
+    font-weight: bold;
+    padding-right: 10px; 
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent:20px;
 }
 footer {
     background-color: rgb(214, 230, 77);
@@ -50,10 +102,4 @@ footer {
     font: size 80px;
     color:blue;
 }
-.center {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-li {
-  display: inline-table;
-}
+
