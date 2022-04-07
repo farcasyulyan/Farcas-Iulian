@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(235, 217, 217);
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
+    color: black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.header1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0px;
+}
+.header2 {
+    padding: 0px;
+    margin: 0px;
+    display: inline;    
+}
+#header3 {
+    font-size: 12px;
+    text-align: end;
+}
+#header3 a:link {
+    color: blue;
+}
+#header3 a:visited {
+    color: rgb(0, 60, 128);
+  }
+#header3 a:hover {
+    color: rgb(255, 0, 76);
+}
+#header3 a:active {
+    color: yellow;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(136, 185, 231);
+  }
+.topnav1 {
+    text-align: right;
+    color: #f2f2f2;
+    padding: 14px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.createaccount {
+    text-align: right;
+    display: inline;
+
+}
+.centru {
+    text-align: center;
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));;
+    width: 70%;
+    color: rgba(23, 41, 207, 0.945);
+    float:left;
+    display: inline;
+}
+.turism1 {
+    background-color: #f2f2f2;
+    text-align: left;
+    vertical-align: top;
+    padding: 5px;
+}
+#titlutabel {
+    text-align: center;
+}
+#alntext {
+    vertical-align: top;
+    width: 200px;
+}
+footer {
+    background-color: yellowgreen;
+    color: #f2f2f2;
+    padding: 14px;
+}
+
